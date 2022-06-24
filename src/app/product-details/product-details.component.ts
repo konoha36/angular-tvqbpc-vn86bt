@@ -13,9 +13,9 @@ export class ProductDetailsComponent implements OnInit {
   product: Product | undefined;
 
   constructor(
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
     private cartService: CartService
-    ) {}
+  ) {}
 
   ngOnInit(): void {
     //first get the product id from the current route.
